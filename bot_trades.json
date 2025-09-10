@@ -1,38 +1,24 @@
 [
-    {
-        "timestamp": "2025-09-10T09:15:32.604442",
-        "symbol": "BTCUSDT",
-        "side": "BUY",
-        "qty": 0.001,
-        "tp_price": 35000,
-        "sl_price": 34000,
-        "orders": [
-            {
-                "symbol": "BTCUSDT",
-                "orderId": 746942,
-                "orderListId": -1,
-                "clientOrderId": "M92TUf6dBcoGSsl1k4xwbR",
-                "transactTime": 1757495732671,
-                "price": "35000.00000000",
-                "origQty": "0.00100000",
-                "executedQty": "0.00000000",
-                "origQuoteOrderQty": "0.00000000",
-                "cummulativeQuoteQty": "0.00000000",
-                "status": "NEW",
-                "timeInForce": "GTC",
-                "type": "LIMIT",
-                "side": "BUY",
-                "workingTime": 1757495732671,
-                "fills": [],
-                "selfTradePreventionMode": "EXPIRE_MAKER"
-            },
-            {
-                "symbol": "BTCUSDT",
-                "orderId": 746943,
-                "orderListId": -1,
-                "clientOrderId": "5a2oVrLuCNSf0Jnyedqadj",
-                "transactTime": 1757495732984
-            }
-        ]
-    }
+  {
+    "mode": "backtest",
+    "orderType": "LIMIT",
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "qty": 0.001,
+    "limit_price": 1000.0,
+    "fill_price": 0.44868,
+    "status": "FILLED",
+    "timestamp": "2023-11-14 22:13:20"
+  },
+  {
+    "mode": "backtest",
+    "orderType": "LIMIT",
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "qty": 0.0001,
+    "limit_price": 250000.0,
+    "fill_price": 1898.6,
+    "status": "FILLED",
+    "timestamp": "2023-03-28 10:40:00"
+  }
 ]
